@@ -2,4 +2,40 @@
 
 /* 回答はここに書いてね */
 
+.boxes {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  width: 500px;
+  border-radius: 30px;
+  border: 5px solid #222;
+}
+
+.boxes::before,
+.boxes::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+}
+
+.boxes::before {
+  bottom: -45px;
+  left: 30px;
+  border-top-color: #222;
+}
+
+.boxes::after {
+  bottom: -38px;
+  left: 30px;
+  border-top-color: #fff;
+}
+
+.text-f {
+  font-size: 16px;
+  line-height: 16px;
+}
 /* 回答はここに書いてね */

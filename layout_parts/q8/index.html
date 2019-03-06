@@ -32,26 +32,26 @@
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q8 q8--btn">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+                <div class="small-f small co-s">common</div>
+                <div class="small-f small er-s">error</div>
+                <div class="small-f small di-s">disabled</div>
+                <div class="small-f small sh-s">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="middle-f middle co-s">common</div>
+            <div class="middle-f middle er-s">error</div>
+            <div class="middle-f middle di-s">disabled</div>
+            <div class="middle-f middle sh-s">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="large-f large co-s">common</div>
+            <div class="large-f large er-s">error</div>
+            <div class="large-f large di-s">disabled</div>
+            <div class="large-f large sh-s">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -99,7 +99,68 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <form class="form8 clearfix">
+
+              <div class="topp">
+                <div class="exer">
+                  <p class="exer-text">Form Exercise</p>
+                </div>
+              </div>
+
+              <div class="context">
+                <div class="lef">
+                  <ul class="ul-main">
+                    <li class="clear">
+                      <p class="label">名前<span class="red-point">*</span></p>
+                      <div class="in-form"><input class="form-f form-f--s" type="text" name="name" required></div>
+                    </li>
+                    <li class="clear">
+                      <p class="label">性別</p>
+                      <div class="in-form">
+                        <label class="select"><input class="select-point" type="radio" name="jender" value=""><span class="jender">男性</span></label>
+                        <label class="select"><input class="select-point" type="radio" name="jender" value=""><span class="jender">女性</span></label>
+                      </div>
+                    </li>
+                    <li class="clear">
+                      <p class="label">出身</p>
+                      <div class="in-form selection">
+                        <select class="form-f-f form-f-f-s" name="">
+                          <option value="">東京</option>
+                          <option value="">埼玉</option>
+                          <option value="">千葉</option>
+                          <option value="">神奈川</option>
+                        </select>
+                      </div>
+                    </li>
+                    <li class="clear">
+                      <p class="label">Eメール<span class="red-point">*</span></p>
+                      <div class="in-form"><input type="text" name="" class="form-f form-f--s" placeholder="ex) hoge@gmail.com" required></div>
+                    </li>
+                    <li class="clear">
+                      <p class="label">電話番号</p>
+                      <div class="in-form"><input type="text" name="" class="form-f form-f--s" placeholder="ex) 08012345678"></div>
+                    </li>
+                    <li class="clear">
+                      <div class="in-form">
+                        <div class="posi">
+                          <input class="chebo" type="checkbox" name="" id="chebo1">
+                          <label for="chebo1">20歳以上です</label>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="sousin">
+                    <button type="submit" name="button" class="sousin-btn btn8">送信</button>
+                  </div>
+                </div>
+
+                <div class="rig">
+                  <textarea class="rig-text rig-sub" name="name" rows="8" cols="80" placeholder="何かあれば入力してください。"></textarea>
+                </div>
+                </div>
+              </div>
+
+            </form>
           </div>
           <!-- 回答はここに書いてね -->
         </div>

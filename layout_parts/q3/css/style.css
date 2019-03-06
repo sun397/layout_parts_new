@@ -2,4 +2,46 @@
 
 /* 回答はここに書いてね */
 
+.main-table {
+  width: 100%;
+  height: auto;
+  table-layout:fixed;
+}
+
+table tr {
+  text-align: center;
+}
+
+table tr th:first-child {
+  background-color: #2244aa;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+table th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid #dedede 1px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+table tr:first-child {
+  background-color: #2244aa;
+}
+
+table tr:first-child th {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+table tr:nth-child(2n+3) {
+  background-color: #ecf1f2;
+}
+
+table tr:last-child {
+  border-top:dashed #000 2px;
+}
 /* 回答はここに書いてね */

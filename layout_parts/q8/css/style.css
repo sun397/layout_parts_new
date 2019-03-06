@@ -2,4 +2,348 @@
 
 /* 回答はここに書いてね */
 
+.small-f {
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.small {
+  padding: 0 15px;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.middle-f {
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.middle {
+  padding: 0 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.large-f {
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.large {
+  padding: 0 25px;
+  border-radius: 7px;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+
+.co-s {
+  background-color: #00bcd4;
+  color: #fff;
+  margin-left: 0px;
+}
+
+.er-s {
+  background-color: #ff4081;
+  color: #fff;
+}
+
+.di-s {
+  background-color: #e5e5e5;
+  color: #fff;
+}
+
+.sh-s {
+  background-color: #fff;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
+}
+
+/* 2 */
+
+
+.form8 {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.topp {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.exer {
+  position: relative;
+  display: inline-block;
+  background-color: #ECF1F2;
+  padding-right: 10px;
+  font-size: 24px; font-weight: bold;
+  width: 100%;
+}
+
+.exer::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.exer-text {
+  position: relative;
+    display: inline-block;
+    padding-right: 10px;
+    background-color: #ECF1F2;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.lef {
+  float: left;
+  width: 300px;
+}
+
+.ul-main {
+  margin-bottom: 20px;
+}
+
+.red-point {
+  color: #F00;
+}
+
+li:first-child {
+  margin-top: 0;
+}
+
+li {
+  margin-top: 20px;
+}
+
+.clear::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.label {
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.in-form {
+  float: right;
+  width: 180px;
+}
+
+.form-f {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background: none;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.form-f:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+.form-f--s {
+  background-color: #FFF;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select {
+  cursor: pointer;
+}
+
+.select-point {
+  display: none;
+}
+
+.jender {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+.jender::before {
+  position: absolute;
+    top: 50%;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    margin-top: -8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    content: '';
+}
+.select-point:checked + .jender::after {
+  position: absolute;
+    top: 50%;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    background-color: #00BCD4;
+    border-radius: 50%;
+    content: '';
+}
+
+.selection {
+  position: relative;
+}
+
+.form-f-f {
+  background: none;
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background: none;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.selection::after {
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
+}
+
+.form-f-f-s {
+  background-color: #FFF;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.posi {
+  text-align: right;
+}
+
+.chebo {
+  display: none;
+}
+
+.chebo + label {
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+}
+.chebo+  label::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: '';
+}
+.chebo:checked + label::after {
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
+  content: '';
+}
+
+.sousin {
+  text-align: right;
+}
+
+.sousin-btn {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+  border-width: 0;
+}
+
+.sousin-btn:active {
+  background-color: #FFF;
+    color: #00BCD4;
+}
+
+.btn8 {
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+
+.rig {
+  float: right;
+  width: 380px;
+}
+
+.rig-text {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.rig-text:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+.rig-sub {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+
+
 /* 回答はここに書いてね */

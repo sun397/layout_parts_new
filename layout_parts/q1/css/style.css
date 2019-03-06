@@ -2,4 +2,37 @@
 
 /* 回答はここに書いてね */
 
+.boxes {
+  width: 940px;
+  background-color: #eff3f4;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.texts {
+  width: 230px;
+  background-color: #3274ae;
+  padding: 20px;
+  float: left;
+  margin-left: 20px;
+}
+
+.texts:first-child {
+  margin-left: 0;
+}
+
+.bo-te {
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  border: 10px solid #022336;
+  background-color: #eaf4ff;
+}
 /* 回答はここに書いてね */
