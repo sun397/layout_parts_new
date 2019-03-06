@@ -9,47 +9,41 @@
 .table {
   width: 100%;
   display: table;
+}
+
+.table:first-child {
   padding-bottom: 20px;
 }
 
-.table div {
+.table-box {
   display: table-cell;
   text-align: center;
   padding: 20px;
 }
 
-.table div:first-child {
+.fixed {
   background-color: #fdc8b8;
   width: 100px;
 }
 
-.table .change {
+.change {
   background-color: #e0abd9;
 }
-.table div:last-child {
+
+.fixeds {
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.table-s {
-  width: 100%;
-  display: table;
-}
-.table-s div {
-  display: table-cell;
-  text-align: center;
-  padding: 20px;
-}
-
-.table-s div:first-child {
+.changes {
   background-color: #e5d32e;
 }
 
-.table-s .change-s {
+.changess {
   background-color: #ec8f9a;
 }
 
-.table-s div:last-child {
+.fixedss {
   background-color: #8fdcad;
   width: 500px;
 }

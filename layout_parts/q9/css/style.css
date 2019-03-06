@@ -14,12 +14,10 @@
   margin: 0 auto;
 }
 
-
-.boxes-img img {
+.img-s img {
   transition-duration: 0.5s;
 }
-
-.boxes-img:hover img {
+.img-s:hover img {
   transform: scale(1.5,1.5);
   cursor: pointer;
 }

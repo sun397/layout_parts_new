@@ -2,28 +2,22 @@
 
 /* 回答はここに書いてね */
 
-#bo {
+.bo {
   width: 940px;
   height: auto;
   margin: 0 auto;
-}
-
-#box {
   background-color: #eff3f4;
   width: 900px;
   padding: 20px;
 }
 
-.q2_box {
-}
-
-.q2_box img {
+.left {
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
 }
 
-.q2_box_m img {
+.right {
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;

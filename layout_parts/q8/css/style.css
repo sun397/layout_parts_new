@@ -45,23 +45,23 @@
 }
 
 
-.co-s {
+.common {
   background-color: #00bcd4;
   color: #fff;
   margin-left: 0px;
 }
 
-.er-s {
+.error {
   background-color: #ff4081;
   color: #fff;
 }
 
-.di-s {
+.disabled {
   background-color: #e5e5e5;
   color: #fff;
 }
 
-.sh-s {
+.shadow {
   background-color: #fff;
   color: #222;
   box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
@@ -114,6 +114,9 @@
     background-color: #ECF1F2;
     font-size: 24px;
     font-weight: bold;
+}
+
+.context {
 }
 
 .lef {
