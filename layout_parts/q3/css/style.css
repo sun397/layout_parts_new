@@ -19,7 +19,8 @@
   line-height: 26px;
 }
 
-.main-table th,td {
+.main-table th,
+.main-table td {
   padding-top: 10px;
   padding-bottom: 10px;
   border: solid #dedede 1px;

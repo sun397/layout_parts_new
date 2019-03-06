@@ -2,14 +2,6 @@
 
 /* 回答はここに書いてね */
 
-.box-size.c9 {
-  background-color: #2b69a3;
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 10;
-}
-
 .boxs {
   background-color: #ECF1F2;
   margin: 0 auto;
@@ -93,5 +85,13 @@
   top: 0;
   right: 0;
   content: "";
+}
+
+.c9 {
+  background-color: #2b69a3;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
 }
 /* 回答はここに書いてね */
